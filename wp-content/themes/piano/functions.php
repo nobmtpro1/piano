@@ -1,4 +1,8 @@
 <?php
+
+	
+add_theme_support( 'post-thumbnails' );
+
 function register_menus()
 {
     register_nav_menus(
@@ -13,6 +17,11 @@ add_action('init', 'register_menus');
 function add_styles()
 {
     ?>
+    <style>
+        body{
+            margin: 0 !important;
+        }
+    </style>
 
     <?php
 }
