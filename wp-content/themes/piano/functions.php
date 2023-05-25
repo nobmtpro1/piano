@@ -2,7 +2,7 @@
 
 
 add_theme_support('post-thumbnails');
-
+add_filter('use_block_editor_for_post', '__return_false');
 function register_menus()
 {
     register_nav_menus(
@@ -25,6 +25,7 @@ function add_styles()
         p {
             margin: 0;
         }
+
     </style>
     <link rel="stylesheet" href="<?= bloginfo('template_directory') ?>/assets/css/main.css" />
 <?php
