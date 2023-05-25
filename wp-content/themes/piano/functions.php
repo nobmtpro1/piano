@@ -17,16 +17,6 @@ add_action('init', 'register_menus');
 function add_styles()
 {
 ?>
-    <style>
-        body {
-            margin: 0 !important;
-        }
-
-        p {
-            margin: 0;
-        }
-
-    </style>
     <link rel="stylesheet" href="<?= bloginfo('template_directory') ?>/assets/css/main.css" />
 <?php
 }

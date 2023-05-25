@@ -1,3 +1,12 @@
+body {
+  margin: 0 !important;
+  background: url("../img/bg1.png") left -500px top 130px no-repeat,
+    url("../img/bg2.png") right 0 top 940px no-repeat,
+    url("../img/bg3.png") left 0 top 2300px no-repeat,
+    url("../img/bg4.png") left 0 top 4000px no-repeat;
+  background-size: auto, auto, auto, auto;
+}
+
 .my-widget-table-course {
   border: 1px #ddd solid;
   display: flex;
