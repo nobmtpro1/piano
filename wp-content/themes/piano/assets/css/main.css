@@ -1,0 +1,75 @@
+.my-widget-table-course {
+  border: 1px #ddd solid;
+  display: flex;
+  flex-direction: column;
+  font-family: "lora";
+}
+
+.my-widget-table-course > .title {
+  display: flex;
+  align-items: center;
+}
+
+.my-widget-table-course > .title .box {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #92193d;
+  border: 1px #ddd solid;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.my-widget-table-course > .title .box.active {
+  background: #ddd;
+  border-bottom: 2px #92193d solid;
+}
+
+.my-widget-table-course .content .table.active {
+  padding: 20px;
+  margin: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  max-height: 400px;
+  overflow: auto;
+  display: block;
+}
+
+.my-widget-table-course .content .table {
+  display: none;
+}
+
+.my-widget-table-course .content .table table {
+  width: 100%;
+  display: table;
+  border-collapse: collapse;
+}
+
+.my-widget-table-course .content .table table thead tr th {
+  background: linear-gradient(to right, #ce5577 0, #93193d 41%);
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding: 10px;
+}
+
+.my-widget-table-course .content .table table tbody tr td {
+  color: #000;
+  font-weight: 500;
+  border: 1px solid #4b4b50;
+  vertical-align: middle;
+  padding: 5px 10px;
+}
+
+.my-widget-table-course .content .table table tbody tr.name td {
+  background: #ffcb05;
+  text-align: center;
+  font-weight: 600;
+}
+
+.my-widget-table-course .content .table table tbody tr:nth-of-type(even) {
+  background-color: rgba(147, 25, 61, 0.1);
+}
