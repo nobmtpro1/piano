@@ -7,6 +7,70 @@ body {
   background-size: auto, auto, auto, auto;
 }
 
+@keyframes movebounce {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(15px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes violin {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+#icon1 {
+  animation: violin 2s infinite;
+}
+
+.note-position-1 {
+  bottom: -250px;
+  left: -50px;
+}
+
+.note-position-2 {
+  bottom: -50px;
+  left: 0px;
+}
+
+.note-position-3 {
+  top: -100px;
+  right: 70%;
+}
+
+.note-position-4 {
+  top: -110px;
+  right: 40%;
+}
+.note-position-5 {
+  top: 70px;
+  right: 30%;
+}
+
+/* .note-position-1 { */
+/* top: 0;
+  left: 0;
+} */
+
+.note-amination {
+  position: absolute;
+  font-size: 70px;
+  color: rgba(255, 255, 255, 0.4);
+  animation: movebounce 3s linear infinite;
+}
+
 .my-widget-table-course {
   border: 1px #ddd solid;
   display: flex;
