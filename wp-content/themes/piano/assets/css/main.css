@@ -1,9 +1,9 @@
 body {
   margin: 0 !important;
-  background: url("../img/bg1.png") left -500px top 130px no-repeat,
-    url("../img/bg2.png") right 0 top 940px no-repeat,
-    url("../img/bg3.png") left 0 top 2300px no-repeat,
-    url("../img/bg4.png") left 0 top 4000px no-repeat;
+  background: url("../img/bg1.png") left -500px top 1130px no-repeat,
+    url("../img/bg2.png") right 0 top 1940px no-repeat,
+    url("../img/bg3.png") left 0 top 3300px no-repeat,
+    url("../img/bg4.png") left 0 top 5700px no-repeat;
   background-size: auto, auto, auto, auto;
 }
 
